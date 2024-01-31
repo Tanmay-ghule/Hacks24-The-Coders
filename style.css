@@ -338,6 +338,23 @@ p{
     color: rgb(16, 17, 17);
     transition: background 0.5s;
 }
+.btn2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:inline-block;
+    margin: 1.5%;
+    width: 220px;
+    border: 1px solid #605d8b;
+    padding: 14px 50px;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-left: 145px;
+    background-color: rgb(0, 130, 190);
+    color: rgb(255, 255, 255);
+    transition: background 0.5s;
+    text-align:center;
+    
+}
+
 
 .btn:hover{
     background: #6ccfcf;
