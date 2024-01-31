@@ -119,17 +119,21 @@ p{
 .about-col-1{
     margin-top: 20px;
     flex-basis: 35%;
+    
 }
 
 .about-col-1 img{
     height: auto;
     width: 100%;
     border-radius: 20px;
+    
+    
 }
 
 .about-col-2{
     margin-right: auto;
     flex-basis: 60%;
+    
 }
 
 .sub-title{
