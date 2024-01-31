@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+    <div>
+        <title>User Information Form</title>
+    </div>
+    <link rel="stylesheet" href="report.css">
+</head>
+<header>
+    <h2>Report on any product caused unexpected <br> 
+        allergic reactions</h2>
+</header>
+<body>
+
+    <form id="report" action="process-report.php" method="post" onsubmit="return validateForm()">
+
+        <!-- Basic Details -->
+        <label for="name">Name of the food:</label>
+        <input type="text" id="name" name="name" required>
+
+
+         <!-- Dietary Requirements -->
+        <label for="storenames">Store Names:</label>
+        <select id="storenames" name="storenames">
+            <option value="Safe Harvest">Safe Harvest</option>
+            <option value="Pure Provision">Pure Provision</option>
+            <option value="Secure Supplies">Secure Supplies</option>
+            <option value="Nutri Safeway">Nutri Safeway</option>
+            <option value="Nourish Mart">Nourish Mart</option>
+            <option value="Vitality Goods">Vitality Goods</option>
+            <option value="other">Other</option>
+        </select><br>
+            <!-- Add more options as needed -->
+        </select>
+
+        <!-- Allergies -->
+        <label for="allergies">Allergies:</label>
+        <input type="text" id="allergies" name="allergies">
+
+        <!-- Additional Information (you can customize this part as needed) -->
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="5" cols="79"></textarea>
+
+        <br>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
