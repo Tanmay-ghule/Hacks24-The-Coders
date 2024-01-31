@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background: #e4e4e4;
+    background: #ffffff;
     /* background: #e0facb; */
     color: #fff;
 }
@@ -49,7 +49,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgba(255, 255, 255, 0.39);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 25px;
     position: relative;
