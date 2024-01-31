@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div>
+        <title>User Information Form</title>
+    </div>
+    <link rel="stylesheet" href="form.css">
+</head>
+<header>
+    <h2>User Information Form</h2>
+</header>
+<body>
+
+    <form id="userForm" action="process-form.php" method="post" onsubmit="return validateForm()">
+
+        <!-- Basic Details -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <!-- Dietary Requirements -->
+        <label for="dietaryRequirements">Dietary Requirements:</label>
+        <select id="dietaryRequirements" name="dietaryRequirements">
+            <option value="none">None</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="glutenFree">Gluten-Free</option>
+            <option value="dairyFree">Dairy-Free</option>
+            <option value="nutAllergy">Nut Allergy</option>
+            <option value="other">Other (please specify) : </option>
+        </select><br>
+            <!-- Add more options as needed -->
+        </select>
+
+        <!-- Allergies -->
+        <label for="allergies">Allergies:</label>
+        <input type="text" id="allergies" name="allergies">
+
+        <!-- Additional Information (you can customize this part as needed) -->
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="5" cols="79"></textarea>
+
+        <br>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
