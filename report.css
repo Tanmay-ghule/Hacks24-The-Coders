@@ -21,6 +21,7 @@ html {
     position:fixed;
     right:-50%;
     top:0;
+
     z-index:-1;
   }
   
@@ -109,7 +110,7 @@ button:hover {
 
 header h2{
     text-align: center;
-    font-size: 40px;
     color: white;
+    font-size: 35px;
     
 }
