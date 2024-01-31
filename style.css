@@ -19,7 +19,7 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(Bakcground.jpg);
-   
+    
     background-size: cover;
     background-position: center;
 }
@@ -49,7 +49,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(253, 243, 243);
+    color: rgba(255, 255, 255, 0.39);
     text-decoration: none;
     font-size: 25px;
     position: relative;
