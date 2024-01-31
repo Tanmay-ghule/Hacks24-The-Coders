@@ -15,6 +15,8 @@ body{
     color: #fff;
 }
 
+<<<<<<< HEAD
+=======
 button.regbtn4 {
     top:8px;
     left: 0px;
@@ -73,6 +75,7 @@ button.regbtn3 {
 
     
 
+>>>>>>> f2394547fc9dee63e03cf5d3068e53350d82817e
 #header{
     width: 100%;
     height: 100vh;
@@ -249,38 +252,6 @@ p{
 }
 
 
-button.regbtn3 {
-    background-color: #1f1f1f;
-    width: 300px;
-    height: 50px;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    border: 3px solid #1c68ab;
-    color: #ffffff;
-    border-radius: 20px;
-    margin-top: 1%;
-    position: relative;
-    isolation: isolate;
-  }
-  
-  button.regbtn3::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    background: #1c68ab;
-    inset: 0;
-    
-    scale: 0 1;
-    transform-origin: right;
-    transition: scale 450ms;
-  }
-  
-  button.regbtn3:hover::after, button.regbtn3:focus-visible::after {
-    transform-origin: left;
-    scale: 1 1;
-  }
-
 
 
 /* -----------------------------services -------------------- */
@@ -432,7 +403,7 @@ button.regbtn3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display:inline-block;
     margin: 1.5%;
-    width: 220px;
+    width: 220 px;
     border: 1px solid #605d8b;
     padding: 14px 50px;
     border-radius: 100px;
@@ -444,7 +415,23 @@ button.regbtn3 {
     text-align:center;
     
 }
-
+.btn3{
+   
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display:inline-block;
+        margin: 1.5%;
+        width: 220 px;
+        border: 1px solid #605d8b;
+        padding: 14px 50px;
+        border-radius: 100px;
+        text-decoration: none;
+        margin-left: 145px;
+        background-color: rgb(0, 130, 190);
+        color: rgb(255, 255, 255);
+        transition: background 0.5s;
+        text-align:center;
+      
+}
 
 .btn:hover{
     background: #6ccfcf;
@@ -733,3 +720,19 @@ nav .fa-solid{
     position: relative;
     top: 35%; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
