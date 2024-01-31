@@ -15,19 +15,41 @@ body{
     color: #fff;
 }
 
-.regbtn3 {
-    top:2%;
-    left:90%;
-    right: 5%;
-    width:100px;
+button.regbtn3 {
+    top:8px;
+    left: 0px;
+    right: 60%;
+    max-width: 200px;
+    width: 20px;
     height:40px;
     position: absolute;
     border-radius: 20px;
-    width: 140px;
-    background-color: #aeff2b;
+    width: 3%;
+    background-color: #ce7714;
     cursor: pointer;
+
     }
 
+    button.regbtn3::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+
+        inset: 0;
+        border-radius: 20px;
+        scale: 0 1;
+        transform-origin: right;
+        transition: scale 450ms;
+      }
+    
+      button.regbtn3:hover::after, button.regbtn3:focus-visible::after {
+        transform-origin: left;
+        border-radius: 20px;
+        background-color: #dd2069;
+        scale: 1 1;
+      }
+
+    
 
 #header{
     width: 100%;
@@ -671,19 +693,3 @@ nav .fa-solid{
     position: relative;
     top: 35%; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
