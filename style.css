@@ -494,6 +494,7 @@ button.regbtn3 {
     display: inline-block;
     background: #ff004f;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .contact-right form{
