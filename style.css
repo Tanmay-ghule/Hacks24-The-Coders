@@ -15,39 +15,20 @@ body{
     color: #fff;
 }
 
-button.regbtn4 {
-    top:8px;
-    left: 0px;
-    right: 60%;
-    max-width: 200px;
-    width: 20px;
-    height:40px;
-    position: absolute;
-    border-radius: 20px;
-    width: 3%;
-    background-color: #ce7714;
-    cursor: pointer;
-
-
-    }
-
-
-
-
 
 button.regbtn3 {
-    top:8px;
-    left: 0px;
+    top:15px;
+    left: 1200px;
     right: 60%;
-    max-width: 200px;
+    max-width: 500px;
     width: 20px;
     height:40px;
     position: absolute;
     border-radius: 20px;
-    width: 3%;
+    width: 10%;
     background-color: #ce7714;
     cursor: pointer;
-
+    
 
     }
 
@@ -70,6 +51,13 @@ button.regbtn3 {
         background-color: #dd2069;
         scale: 1 1;
       }
+
+
+
+
+
+      
+    
 
     
 
@@ -519,7 +507,41 @@ form btn2{
 
 
 
+button.regbtn4 {
+    top:15px;
+    left: 1050px;
+    right: 60%;
+    max-width: 500px;
+    width: 20px;
+    height:40px;
+    position: absolute;
+    border-radius: 20px;
+    width: 10%;
+    background-color: #ce7714;
+    cursor: pointer;
+    
 
+    }
+
+    button.regbtn4::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+
+        inset: 0;
+        border-radius: 20px;
+        scale: 0 1;
+        transform-origin: right;
+        transition: scale 450ms;
+      }
+    
+      button.regbtn4:hover::after, button.regbtn4:focus
+      -visible::after {
+        transform-origin: left;
+        border-radius: 20px;
+        background-color: #dd2069;
+        scale: 1 1;
+      }
 
 /* css for small screen */
 nav .fa-solid{
